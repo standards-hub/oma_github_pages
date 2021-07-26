@@ -6,7 +6,7 @@ modules:
      layout: interactive-diagram
      title: News
      subtitle: Latest
-     image: news-icon.png
+     image: ./path/news-icon.png
      column: 1
      items:
        - 
@@ -31,7 +31,7 @@ modules:
      layout: interactive-diagram
      title: LwM2M
      subtitle: Protocol
-     image: lw2m2-icon.png
+     image: ./path/lw2m2-icon.png
      column: 0
      items:
        - 
@@ -151,7 +151,7 @@ modules:
      layout: text-image
      title: Title 1
      subtitle: Subtitle 1
-     image: image1.png
+     image: ./path/image1.png
      image-size: 280px # size of the image
      button-label: "Learn more"
      button-style: "button" # display button sytle as a "button" (default)| or as a "link"
@@ -161,7 +161,7 @@ modules:
      layout: image-text
      title: Title 2
      subtitle: Subtitle 2
-     image: image2.png
+     image: ./path/image2.png
      image-size: 280px # size of the image
      button-label: "Call to Action"
      button-style: "button" # display button sytle as a "button" (default)| or as a "link"
@@ -177,11 +177,11 @@ modules:
      paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
    -
      layout: image
-     image: image3.png
+     image: ./path/image3.png
      image-size: 280px # size of the image
      button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
    -
      layout: space
-     background-color: #FFFFFF
+     background-color: FFFFFF
      high: 280px
 ---
