@@ -147,4 +147,41 @@ modules:
          subtitle: (AVSystem)
          status: external
          link: https://github.com/AVSystem/Anjay
+   -
+     layout: text-image
+     title: Title 1
+     subtitle: Subtitle 1
+     image: image1.png
+     image-size: 280px # size of the image
+     button-label: "Learn more"
+     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+   -
+     layout: image-text
+     title: Title 2
+     subtitle: Subtitle 2
+     image: image2.png
+     image-size: 280px # size of the image
+     button-label: "Call to Action"
+     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+   -
+     layout: text
+     title: Title 2
+     subtitle: Subtitle 2
+     button-label: "Call to Action"
+     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+   -
+     layout: image
+     image: image3.png
+     image-size: 280px # size of the image
+     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+   -
+     layout: space
+     background-color: #FFFFFF
+     high: 280px
 ---
