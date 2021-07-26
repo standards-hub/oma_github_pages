@@ -3,6 +3,7 @@ layout: home
 description: Home page of the OMA DMSE GitHub pages
 modules:
    -
+     layout: interactive-diagram
      title: News
      subtitle: Latest
      image: news-icon.png
@@ -27,9 +28,11 @@ modules:
          status: available-4
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
+     layout: interactive-diagram
      title: LwM2M
      subtitle: Protocol
      image: lw2m2-icon.png
+     column: 0
      items:
        - 
          title: V1.2
@@ -47,9 +50,11 @@ modules:
          status: available-1
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
+     layout: interactive-diagram
      title: Test
      subtitle: Specs
      image: test-icon.png
+     column: 0
      items:
        - 
          title: V1.2
@@ -67,9 +72,11 @@ modules:
          status: available-1
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
+     layout: interactive-diagram
      title: LwM2M
      subtitle: Enablers
      image: enablers-icon.png
+     column: 0
      items:
        - 
          title: Binary Application Data
@@ -104,9 +111,11 @@ modules:
          status: available-1
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
+     layout: interactive-diagram
      title: Resources
      subtitle: Information
      image: resources-icon.png
+     column: 0
      items:
        - 
          title: LwM2M Registry
@@ -117,9 +126,11 @@ modules:
          status: external
          link: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki
    -
+     layout: interactive-diagram
      title: Open Source
      subtitle: Code
      image: open-source-icon.png
+     column: 0
      items:
        - 
          title: Leshan
