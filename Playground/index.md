@@ -7,7 +7,7 @@ modules:
      title: News
      subtitle: Latest
      image: ./path/news-icon.png
-     column: 1
+     columns: 1
      items:
        - 
          title: LwM2M & ENISA
@@ -32,7 +32,7 @@ modules:
      title: LwM2M
      subtitle: Protocol
      image: ./path/lw2m2-icon.png
-     column: 0
+     column: 5
      items:
        - 
          title: V1.2
