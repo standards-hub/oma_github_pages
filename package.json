@@ -1,0 +1,39 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "npm run build && gh-pages -d dist -t true --repo https://github.com/standards-hub/oma_github_pages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "jquery": "^3.6.0",
+    "node-sass": "^4.13.1",
+    "normalize.css": "^8.0.1",
+    "nuxt": "^2.15.2",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^7.1.0",
+    "stripe": "^7.4.0",
+    "uuid": "^3.3.2",
+    "vue-star-rating": "^1.6.1",
+    "vue-stripe-elements-plus": "^0.3.2"
+  },
+  "devDependencies": {
+    "@nuxt/components": "^0.1.1",
+    "@nuxt/content": "^1.2.0",
+    "@nuxtjs/style-resources": "^1.2.0",
+    "fibers": "^5.0.0",
+    "gh-pages": "^3.2.0",
+    "node-sass": "^4.14.1",
+    "push-dir": "^0.4.1",
+    "sass": "^1.36.0",
+    "sass-loader": "^10.2.0"
+  }
+}
