@@ -151,6 +151,27 @@ modules:
          subtitle: (AVSystem)
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/AVSystem/Anjay
+   -
+     layout: i_Column_OMA_Events
+     title: Events
+     subtitle: Coming
+     image: ./path/open-events-icon.png
+     items:
+       - 
+         title: Upcoming
+         subtitle: 2021-Nov-10
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
+         link: https://github.com/eclipse/eventNov
+       - 
+         title: Last Event
+         subtitle: 2021-Nov-10
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
+         link: https://github.com/eclipse/eventNov1
+       - 
+         title: Previous
+         subtitle: Events
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
+         link: https://github.com/events
 -
 layout: oma_image-text
 title: Title 1
