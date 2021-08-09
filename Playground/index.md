@@ -147,41 +147,38 @@ modules:
          subtitle: (AVSystem)
          status: external
          link: https://github.com/AVSystem/Anjay
-   -
-     layout: text-image
-     title: Title 1
-     subtitle: Subtitle 1
-     image: ./path/image1.png
-     image-size: 280px # size of the image
-     button-label: "Learn more"
-     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-   -
-     layout: image-text
-     title: Title 2
-     subtitle: Subtitle 2
-     image: ./path/image2.png
-     image-size: 280px # size of the image
-     button-label: "Call to Action"
-     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-   -
-     layout: text
-     title: Title 2
-     subtitle: Subtitle 2
-     button-label: "Call to Action"
-     button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-     paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-   -
-     layout: image
-     image: ./path/image3.png
-     image-size: 280px # size of the image
-     button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-   -
-     layout: space
-     background-color: FFFFFF
-     high: 280px
+-
+layout: image-text
+title: Title 1
+subtitle: Subtitle 1
+image: ./path/image1.png
+button-label: "Learn more"
+button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+-
+layout: text-image
+title: Title 2
+subtitle: Subtitle 2
+image: ./path/image2.png
+button-label: "Call to Action"
+button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+-
+layout: text
+title: Title 2
+subtitle: Subtitle 2
+button-label: "Call to Action"
+button-style: "button" # display button sytle as a "button" (default)| or as a "link"
+button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+-
+layout: image
+image: ./path/image3.png
+button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+-
+layout: space
+background-color: FFFFFF
+high: 280px
 ---
