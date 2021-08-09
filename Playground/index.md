@@ -12,19 +12,19 @@ modules:
          title: LwM2M & ENISA
          content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry 
          subtitle: 10-Nov-20
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
        - 
          title: UCIF Alliance & OMA Objects
          content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
          subtitle: 17-Jun-2019
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: LwM2M v1.2 is now available!
          content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
          subtitle: 9-Dec-2020
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_OMA_Common
@@ -35,17 +35,17 @@ modules:
        - 
          title: V1.2
          subtitle: 10-Nov-20
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
        - 
          title: V1.1.1
          subtitle: 17-Jun-2019
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: V1.0.2
          subtitle: 02-Feb-2018
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_OMA_Common
@@ -56,17 +56,17 @@ modules:
        - 
          title: V1.2
          subtitle: Pending
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
        - 
          title: V1.1
          subtitle: 12-Sep-2019
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: V1.0.2
          subtitle: 18-Aug-2015
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_OMA_Common
@@ -77,42 +77,42 @@ modules:
        - 
          title: Binary Application Data
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
        - 
          title: Connectivity Management
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: Device Capabilities Management
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
        - 
          title: Event Log
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
        - 
          title: Lock & Wipe
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: Portfolio Object
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
        - 
          title: Software Management
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
        - 
          title: LwM2M Virtual Observation
          subtitle:
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_OMA_Common
@@ -144,12 +144,12 @@ modules:
        - 
          title: Wakaama
          subtitle: (Eclipse)
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/eclipse/wakaama
        - 
          title: Anjay
          subtitle: (AVSystem)
-         status: active  #options "active" = on; "deactive" = off; "pending" = in transition
+         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/AVSystem/Anjay
 -
 layout: image-text
