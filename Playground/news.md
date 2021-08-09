@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: news
 title: News
 permalink: /information/news/
 order: "45" # pending to decide

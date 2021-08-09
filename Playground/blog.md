@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: Blog
 permalink: /information/blog/
 order: "41" # pending to decide
