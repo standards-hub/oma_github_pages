@@ -1,6 +1,6 @@
 ---
-layout: interactive
-description: Home page of the OMA DMSE GitHub pages
+layout: common
+description: content on the home page
 modules:
    -
      layout: i_Column_OMA_News
@@ -152,7 +152,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/AVSystem/Anjay
 -
-layout: image-text
+layout: oma_image-text
 title: Title 1
 subtitle: Subtitle 1
 image: ./path/image1.png
@@ -161,7 +161,7 @@ button-style: "button" # display button sytle as a "button" (default)| or as a "
 button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 -
-layout: text-image
+layout: oma_text-image
 title: Title 2
 subtitle: Subtitle 2
 image: ./path/image2.png
@@ -170,7 +170,7 @@ button-style: "button" # display button sytle as a "button" (default)| or as a "
 button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 -
-layout: text
+layout: oma_text
 title: Title 2
 subtitle: Subtitle 2
 button-label: "Call to Action"
@@ -178,10 +178,10 @@ button-style: "button" # display button sytle as a "button" (default)| or as a "
 button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 -
-layout: image
+layout: oma_image
 image: ./path/image3.png
 button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 -
-layout: space_break_1
+layout: oma_space_break_1
 # define background-color: FFFFFF and high: 280px as a "space_break_1"
 ---
