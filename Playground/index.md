@@ -9,6 +9,7 @@ modules:
      image: ./path/news-icon.png
      items:
        - 
+         file: ./news/2020-11-28-news-1.md
          title: LwM2M & ENISA
          content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry 
          subtitle: 10-Nov-20
@@ -173,10 +174,10 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/events
 -
-layout: oma_image-text
+layout: oma_image-text-button
 title: Title 1
 subtitle: Subtitle 1
-image: ./path/image1.png
+image: ./path/image1.png # define the width and high of the image in the CSS
 button-label: "Learn more"
 button-style: "button" # display button sytle as a "button" (default)| or as a "link"
 button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown

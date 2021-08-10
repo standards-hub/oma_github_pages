@@ -15,19 +15,35 @@ modules:
         layout: oma_dynamic_table_resources
         description: Table dedicated to display resources
         filter: 'visible' # 'hidden' = no visible; 'visible' = visible
+        filter-1: 
+            -    
+                 title: title
+                 index: 1
+            - 
+                 title: date
+                 index: 3
         search: 'visible' #'hidden' = no visible; 'visible' = visible
         rows:
             -
-                title: LwM2M v1.1 Presentation Overview
-                title_url:
-                resource_type: PDF
-                resource_url: 
-                date: 2020-Nov-10
-                date_url:
-                action: download
-                action_url:
-                action_icon: ./path/pdf.png
-            -
+                cell:
+                -
+                  title: LwM2M v1.1 Presentation Overview
+                  url: ""
+                -  
+                  title: PDF
+                  url: ""
+                -
+                  title: 2020-Nov-10
+                  url:
+                -
+                  title: download # to be removed
+                  url:
+                  icon: 
+                -
+                  icon: 
+                  url: ./path/pdf.png
+           -
+                cells:
                 title: LwM2M v1.1 overview including new features due for release in Q2 2019
                 title_url:
                 resource_type: Video
