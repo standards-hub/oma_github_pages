@@ -8,4 +8,4 @@ date: 2020-Nov-10
 author: OMA SpecWorks
 tags: tag1, tag4
 ---
-Blog content
+This paragraph is displayed until here <read more>, but it continues after the label.

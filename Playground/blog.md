@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: page-blog
 title: Blog
 description: This page is dedicated to blog information
 modules:
