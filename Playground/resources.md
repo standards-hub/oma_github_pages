@@ -9,7 +9,7 @@ modules:
         image: ./path/image1.png
         paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
    - 
-        layout: dynamic-table
+        layout: dynamic-table-resources
         description: Table dedicated to display resources
         filter: 'visible' # 'hidden' = no visible; 'visible' = visible
         items: 
@@ -20,9 +20,9 @@ modules:
                  title: date
                  index: 3
         search: 'visible' #'hidden' = no visible; 'visible' = visible
-        rows:
+        table:
             -
-                column:
+                row:
                     -
                         title: LwM2M v1.1 Presentation Overview
                         url: ""
@@ -40,7 +40,7 @@ modules:
                         icon: 
                         url: ./path/pdf.png
            -
-                column:
+                row:
                     -
                         title: LwM2M v1.1 overview including new features due for release in Q2 2019
                         url:
@@ -54,7 +54,7 @@ modules:
                         url:
                         icon: ./path/video_icon.png
             -
-                column:
+                row:
                     -
                         title: LwM2M v1.2 Features
                         url:

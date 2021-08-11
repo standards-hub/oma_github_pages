@@ -1,78 +1,88 @@
 ---
-layout: common
+layout: testfest
 title: TestFests
 description: Home page of the OMA DMSE TestFest Pages
 modules:
    -
-        layout: oma_image-text
-        title: Title 1
-        subtitle: Subtitle 1
+        layout: image-text
+        title: Image with a text
+        subtitle: Subtitle for image with a text
         image: ./path/image1.png
-        button-label: "Learn more"
-        button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-        button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
         paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
    - 
-        layout: oma_dynamic_table_testfest
+        layout: dynamic_table_testfest
         description: Table dedicated to display TestFest results
         filter: 'visible' # 'hidden' = no visible; 'visible' = visible
+        items:
+            - 
+                title: title1
+                index: 1
+            -
+                title: title1
+                index: 1
         search: 'visible' #'hidden' = no visible; 'visible' = visible
-        rows:
-            -
-                title: Virtual TestFest X (22 Mar - 02 Apr 2021)
-                title_url:
-                issue: 
-                issue_url:
-                issue_icon: ./path/issues_icon.png
-                product_listing: 
-                product_listing_url:
-                product_listing_icon:
-                date: 2021-Apr-15
-                date_url:
-                action: download
-                action_url:
-                action_icon: ./path/download.png
-            -
-                title: Virtual TestFest X (20 - 24 Apr 2020)
-                title_url:
-                issue: 
-                issue_url:
-                issue_icon: ./path/issues_icon.png
-                product_listing: 
-                product_listing_url:
-                product_listing_icon:
-                date: 2020-Apr-30
-                date_url:
-                action: download
-                action_url:
-                action_icon: ./path/download.png
-            -
-                title: TestFest Korea (22nd Mar - 02nd Apr 2018)
-                title_url:
-                issue: 
-                issue_url:
-                issue_icon: ./path/issues_icon.png
-                product_listing: 
-                product_listing_url:
-                product_listing_icon:
-                date: 2018-Apr-15
-                date_url:
-                action: download
-                action_url:
-                action_icon: ./path/download.png
-            -
-                title: TestFest Warsaw (30 Nov - 03 Nov 2017)
-                title_url:
-                issue: 
-                issue_url:
-                issue_icon: ./path/issues_icon.png
-                product_listing: 
-                product_listing_url:
-                product_listing_icon:
-                date: 2017-Nov-15
-                date_url:
-                action: download
-                action_url:
-                action_icon: ./path/download.png
+        items:
+            row:
+                -
+                    title: Virtual TestFest X (22 Mar - 02 Apr 2021)
+                    url: www.
+                -
+                    icon: ./path/issues_icon.png
+                    url:  www. 
+                -
+                    icon: ./path/document_icon.png
+                    url: www.
+                -
+                    title: 2021-Apr-15
+                -
+                    icon: ./path/download.png
+                    url:
+                -
+            row:
+                -
+                    title: Virtual TestFest X (20 - 24 Apr 2020)
+                    url:
+                -
+                    icon: ./path/issues_icon.png
+                    url: www.
+                -
+                    icon: ./path/document_icon.png
+                    url:
+                -
+                    title: 2020-Apr-30
+                -
+                    icon: ./path/download.png
+                    url: www.
+            row:
+                -
+                    title: TestFest Korea (22nd Mar - 02nd Apr 2018)
+                    url:
+                -
+                    icon: ./path/issues_icon.png
+                    url: www.
+                -
+                    icon: ./path/document_icon.png
+                    url: www.
+                -
+                    title: 2018-Apr-15
+                -
+                    icon: ./path/download.png
+                    url: www.
+                -
+            row:
+                -
+                    title: TestFest Warsaw (30 Nov - 03 Nov 2017)
+                    url: www.
+                -
+                    icon: ./path/issues_icon.png
+                    url: www.
+                -
+                    icon: ./path/document_icon.png
+                    url: www.
+                -
+                    title: 2017-Nov-15
+                -
+                    icon: ./path/download.png
+                    url: www
 ---
 text that will be at the end of the above constructors
