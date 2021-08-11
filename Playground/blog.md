@@ -1,14 +1,14 @@
 ---
 layout: blog
 title: Blog
-permalink: /information/blog/
-order: "41" # pending to decide
-subnav: true # pending to decide
-columns: "3"
-pagination: 
-  enabled: "true"
-  category: blog
-blocks_before:
-  - layout: "image"
-    image: /assets/images/banner/banner-contactus.jpg
+description: This page is dedicated to blog information
+modules:
+  -
+    layout: text
+    title: Title dedicated to Blog
+    description: This component allows to introduce a text section
+  -
+    layout: blog
+    title: Blog
+    description: This component introduces the blogs
 ---
