@@ -1,5 +1,5 @@
 ---
-  layout:
+  layout: navigation
   menus:
     - 
       title: OMA Website
