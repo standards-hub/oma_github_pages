@@ -31,28 +31,25 @@ modules:
                         url: ""
                     -
                         title: 2020-Nov-10
-                        url:
+                        url: ""
                     -
-                        title: download # to be removed
-                        url:
-                        icon: 
-                    -
-                        icon: 
-                        url: ./path/pdf.png
+                        icon:  ./path/pdf-icon.png
+                        url: www.
            -
                 row:
                     -
                         title: LwM2M v1.1 overview including new features due for release in Q2 2019
-                        url:
+                        url: www.
                     -
                         title: Video
-                        url: 
+                        url: ""
                     -
                         title: 2019-Jan-21
-                        url:
+                        url: ""
                     -
-                        url:
                         icon: ./path/video_icon.png
+                        url: www.
+                        
             -
                 row:
                     -

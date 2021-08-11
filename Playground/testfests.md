@@ -19,7 +19,7 @@ modules:
                 index: 1
             -
                 title: title1
-                index: 1
+                index: 2
         search: 'visible' #'hidden' = no visible; 'visible' = visible
         items:
             row:
@@ -36,7 +36,7 @@ modules:
                     title: 2021-Apr-15
                 -
                     icon: ./path/download.png
-                    url:
+                    url: www.
                 -
             row:
                 -

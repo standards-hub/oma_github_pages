@@ -3,7 +3,7 @@ layout: home
 description: content on the home page
 modules:
    -
-     layout: i_Column_OMA_News
+     layout: i_Column_News
      title: News
      subtitle: Latest
      image: ./path/news-icon.png
@@ -18,7 +18,7 @@ modules:
          file: ./news/2021-08-13-news_title.md
          status:   # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
    -
-     layout: i_Column_OMA_Common
+     layout: i_Column_Common
      title: LwM2M
      subtitle: Protocol
      image: ./path/lw2m2-icon.png
@@ -39,7 +39,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
-     layout: i_Column_OMA_Common
+     layout: i_Column_Common
      title: Test
      subtitle: Specs
      image: ./path/test-icon.png
@@ -60,7 +60,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
-     layout: i_Column_OMA_Common
+     layout: i_Column_Common
      title: LwM2M
      subtitle: Enablers
      image: ./path/enablers-icon.png
@@ -106,7 +106,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
-     layout: i_Column_OMA_Common
+     layout: i_Column_Common
      title: Resources
      subtitle: Information
      image: ./path/resources-icon.png
@@ -122,7 +122,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki
    -
-     layout: i_Column_OMA_Common
+     layout: i_Column_Common
      title: Open Source
      subtitle: Code
      image: ./path/open-source-icon.png
@@ -143,7 +143,7 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/AVSystem/Anjay
    -
-     layout: i_Column_OMA_Events
+     layout: i_Column_Events
      title: Events
      subtitle: Coming
      image: ./path/open-events-icon.png
