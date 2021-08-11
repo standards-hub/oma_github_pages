@@ -1,5 +1,5 @@
 ---
-layout: common
+layout: home
 description: content on the home page
 modules:
    -
@@ -10,23 +10,13 @@ modules:
      items:
        - 
          file: ./news/2020-11-28-news-1.md
-         title: LwM2M & ENISA
-         content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry 
-         subtitle: 10-Nov-20
-         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
-         link: https://omaspecworks.org/lwm2m-in-enisas-secure-supply-chain-for-iot-v1-0/
+         status:    # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible we need different highlights
        - 
-         title: UCIF Alliance & OMA Objects
-         content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-         subtitle: 17-Jun-2019
-         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
-         link: https://omaspecworks.org/ucifi-alliance-contributes-29-objects-to-the-oma/
+         file: ./news/2021-08-13-news_title.md
+         status:   # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
        - 
-         title: LwM2M v1.2 is now available!
-         content: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-         subtitle: 9-Dec-2020
-         status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
-         link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
+         file: ./news/2021-08-13-news_title.md
+         status:   # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
    -
      layout: i_Column_OMA_Common
      title: LwM2M
@@ -174,36 +164,81 @@ modules:
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/events
 -
-layout: oma_image-text-button
+layout: image-text
+title: Title 2
+subtitle: Subtitle 2
+image: ./path/image2.png # define the width and high of the image in the CSS
+paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+
+-
+layout: image-text-button
 title: Title 1
 subtitle: Subtitle 1
 image: ./path/image1.png # define the width and high of the image in the CSS
-button-label: "Learn more"
-button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+label: "Learn more"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+
+-
+layout: image-text-link
+title: Title 3
+subtitle: Subtitle 3
+image: ./path/image3.png # define the width and high of the image in the CSS
+label: "Learn more"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 -
-layout: oma_text-image
+layout: text-image
 title: Title 2
 subtitle: Subtitle 2
 image: ./path/image2.png
-button-label: "Call to Action"
-button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 -
-layout: oma_text
-title: Title 2
-subtitle: Subtitle 2
-button-label: "Call to Action"
-button-style: "button" # display button sytle as a "button" (default)| or as a "link"
-button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+layout: text-image-button
+title: Title 5
+subtitle: Subtitle 5
+image: ./path/image5.png
 paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
+label: "Learn more"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 -
-layout: oma_image
+layout: text-image-link
+title: Title 3
+subtitle: Subtitle 3
+image: ./path/image3.png # define the width and high of the image in the CSS
+paragrah: Image to the left and text to the right with a link
+label: "Learn more"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+
+-
+layout: text
+title: Title with text only
+subtitle: Subtitle with text only
+paragrah: Text only component
+label: "Call to Action"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+-
+layout: text-button
+title: Title with text & button
+subtitle: Submitle for text and button
+paragrah: Text and buttom component
+label: "Call to Action"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+-
+layout: image
 image: ./path/image3.png
-button-url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
 -
-layout: oma_space_break_1
-# define background-color: FFFFFF and high: 280px as a "space_break_1"
+layout: image-button
+image: ./path/image3.png
+label: "button label"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+-
+layout: image-link
+image: ./path/image3.png
+label: "label for the link"
+url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
+-
+layout: space-break-1
+high: 200px
+background-color: #FFFFFF 
 ---
