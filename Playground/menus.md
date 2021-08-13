@@ -9,19 +9,23 @@
     - 
       title: News
       description:
-      url: /News
+      url: /news
     -
       title: Resources
       description:
-      url: /Resources
+      url: /resources
     - 
       title: Information
       description: News & BLog pages of the OMA DMSE
       items:
         - 
            title: Blog
-           url: /Blog
+           url: /blog
         -
            title: News
-           url: /News
+           url: /news
+    - 
+      description: link to GitHub
+      icon: ./path/github-logo.png
+      url:
 ---
