@@ -4,8 +4,8 @@ description: content on the home page
 modules:
    -
      layout: i_Column_News
-     title: News
-     subtitle: Latest
+     header: News
+     sub_Header: Latest
      image: ./path/news-icon.png
      items:
        - 
@@ -19,8 +19,8 @@ modules:
          status:   # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
    -
      layout: i_Column_Common
-     title: LwM2M
-     subtitle: Protocol
+     header: LwM2M
+     sub_Header: Protocol
      image: ./path/lw2m2-icon.png
      items:
        - 
@@ -40,8 +40,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: Test
-     subtitle: Specs
+     header: Test
+     sub_Header: Specs
      image: ./path/test-icon.png
      items:
        - 
@@ -61,8 +61,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: LwM2M
-     subtitle: Enablers
+     header: LwM2M
+     sub_Header: Enablers
      image: ./path/enablers-icon.png
      items:
        - 
@@ -107,8 +107,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: Resources
-     subtitle: Information
+     header: Resources
+     sub_Header: Information
      image: ./path/resources-icon.png
      items:
        - 
@@ -123,8 +123,8 @@ modules:
          link: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki
    -
      layout: i_Column_Common
-     title: Open Source
-     subtitle: Code
+     header: Open Source
+     sub_Header: Code
      image: ./path/open-source-icon.png
      items:
        - 
@@ -144,8 +144,8 @@ modules:
          link: https://github.com/AVSystem/Anjay
    -
      layout: i_Column_Events
-     title: Events
-     subtitle: Coming
+     header: Events
+     sub_Header: Coming
      image: ./path/open-events-icon.png
      items:
        - 
