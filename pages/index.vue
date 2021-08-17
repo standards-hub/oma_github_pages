@@ -33,6 +33,21 @@
         </td>
       </tr>
      </table>
+     <section style="background: rgb(255, 255, 255);border: 1px solid rgb(12, 12, 12);margin-top: 50px;">
+       <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 ">
+            <img class="img-fluid" src="~static/assets/img/prueba.png" alt="" style="margin-top: 50px;">
+        </div>
+        <div class="col-lg-6 col-md-6 pt-4 pb-4 align-self-center about-content">
+          <h2 v-for="box in doc.box">{{ box.title }}</h2>
+          <p>Are you looking for a specifications factory that continually strives to optimize the delicate balance between the need for consensus and time to market through tools and simplified procedures, while empowering the people doing the work to complete a work item in the minimal amount of time. Markdown at</p>
+            <a class="button" href="">Learn More</a>
+        </div>
+      </div>
+    </div>
+     </section>
     </div>
   </div>
   </div>
