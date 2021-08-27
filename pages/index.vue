@@ -7,19 +7,22 @@
   <div class="home">
   <div class="tier" style="padding: 50px 1px;">
     <div class="container" style="margin-top: 90px;"> 
-     <table style="table-layout: fixed;width: 1200px;">
+     <table style="table-layout: fixed;border: 0px solid #000;width: 1200px;">
        <tr style="border: 1px solid #ffffff00;">
          <td class="td" v-for="modules in doc.modules"><img style="font-size: 50px" src="~static/assets/img/icon/hire.png" class="imagen"/></td>      
       </tr>
       <tr style="border: 1px solid #ffffff00;">
-        <td style="text-align: center;" v-for="modules in doc.modules">{{ modules.title }}</td>
+        <td style="text-align: center;" v-for="modules in doc.modules">{{ modules.header }}</td>
       </tr>
        <tr style="border: 1px solid #ffffff00;">
-        <td style="text-align: center;color: #0f426f;font-size: 15px;" v-for="modules in doc.modules">{{ modules.subtitle }}</td>
+        <td style="text-align: center;color: #0f426f;font-size: 15px;" v-for="modules in doc.modules">{{ modules.sub_Header }}</td>
       </tr>
       <tr style="background: white;">
         <td class="td" v-for="modules2 in doc.modules">
-            <button class="button button4 button2" v-for="item in modules2.items">
+            <button v-if="modules2.header === 'News'" class="button5 button1 button4" v-for="item in modules2.items">
+              {{ item.title }}<br>{{ item.subtitle }}
+            </button>
+            <button v-if="modules2.header != 'News'" class="button button4 button2" v-for="item in modules2.items">
               {{ item.title }}<br>{{ item.subtitle }}
             </button>
         </td>
@@ -35,18 +38,43 @@
      </table>
      <section style="background: rgb(255, 255, 255);border: 1px solid rgb(12, 12, 12);margin-top: 50px;">
        <div class="container">
-      
-      <div class="row">
-        <div class="col-lg-6 col-md-6 mb-4 mb-md-0 ">
-            <img class="img-fluid" src="~static/assets/img/prueba.png" alt="" style="margin-top: 50px;">
+          <div class="row">
+            <div class="col-lg-4">
+                <img class="img" src="~static/assets/img/prueba.png" style="margin-top: 10%;margin-bottom: 10%;margin-left: 3%">
+            </div>
+            <div class="col-lg-7" style="margin-top: 3%;">
+              <h2>TITULO 2</h2>
+              <p>Are you looking for a specifications factory that continually strives to optimize the delicate balance between the need for consensus and time to market through tools and simplified procedures, while empowering the people doing the work to complete a work item in the minimal amount of time. Markdown at</p>
+                <a class="button button1" href="">Learn More</a>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 pt-4 pb-4 align-self-center about-content">
-          <h2 v-for="box in doc.box">{{ box.title }}</h2>
-          <p>Are you looking for a specifications factory that continually strives to optimize the delicate balance between the need for consensus and time to market through tools and simplified procedures, while empowering the people doing the work to complete a work item in the minimal amount of time. Markdown at</p>
-            <a class="button" href="">Learn More</a>
+     </section>
+
+      <section style="background: rgb(255, 255, 255);border: 1px solid rgb(12, 12, 12);margin-top: 50px;">
+       <div class="container">
+          <div class="row">
+            <div class="col-lg-8" style="margin-top: 3%;margin-left: 15%; margin-bottom: 3%">
+              <h2 style="text-align: center;">TITULO 3</h2>
+              <p style="text-align: center;">Are you looking for a specifications factory that continually strives to optimize the delicate balance between the need for consensus and time to market through tools and simplified procedures, while empowering the people doing the work to complete a work item in the minimal amount of time. Markdown at</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+     </section>
+
+     <section style="background: rgb(255, 255, 255);border: 1px solid rgb(12, 12, 12);margin-top: 50px;">
+       <div class="container">
+          <div class="row">
+            <div class="col-lg-7" style="margin-top: 3%; margin-left: 3%">
+              <h2>TITULO 2</h2>
+              <p>Are you looking for a specifications factory that continually strives to optimize the delicate balance between the need for consensus and time to market through tools and simplified procedures, while empowering the people doing the work to complete a work item in the minimal amount of time. Markdown at</p>
+                <a class="button button1" href="">Learn More</a>
+            </div>
+             <div class="col-lg-4">
+                <img class="img" src="~static/assets/img/prueba.png" style="margin-top: 10%;margin-bottom: 10%;">
+            </div>
+          </div>
+        </div>
      </section>
     </div>
   </div>
@@ -80,6 +108,19 @@ export default {
   .button2 {background-color: #DAE8FC; border: 4px solid #00285f; color: rgb(120, 9, 148); }
   .button3 {background-color: #DAE8FC; border: 4px solid #00285f; color: rgb(120, 9, 148);border-style: dotted;}
   .button4 {border-radius: 12px; }
+  .button5 {
+    padding: 60px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 110px;
+}
   .button {
     padding: 10px 10px;
     text-align: center;

@@ -4,8 +4,8 @@ description: content on the home page
 modules:
    -
      layout: i_Column_News
-     title: News
-     subtitle: Latest
+     header: News
+     sub_Header: Latest
      image: ./path/news-icon.png
      items:
        - 
@@ -19,8 +19,8 @@ modules:
          status:   # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
    -
      layout: i_Column_Common
-     title: LwM2M
-     subtitle: Protocol
+     header: LwM2M
+     sub_Header: Protocol
      image: ./path/lw2m2-icon.png
      items:
        - 
@@ -40,8 +40,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: Test
-     subtitle: Specs
+     header: Test
+     sub_Header: Specs
      image: ./path/test-icon.png
      items:
        - 
@@ -61,8 +61,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: LwM2M
-     subtitle: Enablers
+     header: LwM2M
+     sub_Header: Enablers
      image: ./path/enablers-icon.png
      items:
        - 
@@ -107,8 +107,8 @@ modules:
          link: https://omaspecworks.org/lwm2m-v1-2-is-now-available/
    -
      layout: i_Column_Common
-     title: Resources
-     subtitle: Information
+     header: Resources
+     sub_Header: Information
      image: ./path/resources-icon.png
      items:
        - 
@@ -123,8 +123,8 @@ modules:
          link: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki
    -
      layout: i_Column_Common
-     title: Open Source
-     subtitle: Code
+     header: Open Source
+     sub_Header: Code
      image: ./path/open-source-icon.png
      items:
        - 
@@ -144,8 +144,8 @@ modules:
          link: https://github.com/AVSystem/Anjay
    -
      layout: i_Column_Events
-     title: Events
-     subtitle: Coming
+     header: Events
+     sub_Header: Coming
      image: ./path/open-events-icon.png
      items:
        - 
@@ -163,83 +163,5 @@ modules:
          subtitle: Events
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/events
-box:
-        -
-          layout: image-text
-          title: Title 2
-          subtitle: Subtitle 2
-          image: ./path/image2.png # define the width and high of the image in the CSS
-          paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
 
-        -
-          layout: image-text-button
-          title: Title 1
-          subtitle: Subtitle 1
-          image: ./path/image1.png # define the width and high of the image in the CSS
-          label: "Learn more"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-          paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-
-        -
-          layout: image-text-link
-          title: Title 3
-          subtitle: Subtitle 3
-          image: ./path/image3.png # define the width and high of the image in the CSS
-          label: "Learn more"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-          paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-        -
-          layout: text-image
-          title: Title 2
-          subtitle: Subtitle 2
-          image: ./path/image2.png
-          paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-        -
-          layout: text-image-button
-          title: Title 5
-          subtitle: Subtitle 5
-          image: ./path/image5.png
-          paragrah: Lorem Ipsum is simply dummy text of the printing andtypesetting industry
-          label: "Learn more"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-        -
-          layout: text-image-link
-          title: Title 3
-          subtitle: Subtitle 3
-          image: ./path/image3.png # define the width and high of the image in the CSS
-          paragrah: Image to the left and text to the right with a link
-          label: "Learn more"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-
-        -
-          layout: text
-          title: Title with text only
-          subtitle: Subtitle with text only
-          paragrah: Text only component
-          label: "Call to Action"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-        -
-          layout: text-button
-          title: Title with text & button
-          subtitle: Submitle for text and button
-          paragrah: Text and buttom component
-          label: "Call to Action"
-          url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-        -
-        layout: image
-        image: ./path/image3.png
-        -
-        layout: image-button
-        image: ./path/image3.png
-        label: "button label"
-        url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-        -
-        layout: image-link
-        image: ./path/image3.png
-        label: "label for the link"
-        url: https://github.com/standardshub/sh-web/edit/dev/index.markdown
-        -
-        layout: space-break-1
-        high: 200px
-        background-color: #FFFFFF 
 ---
