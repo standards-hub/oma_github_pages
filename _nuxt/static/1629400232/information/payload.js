@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/information", (function(a){return {data:[{doc:{layout:a,title:"Information",description:"News & BLog pages of the OMA DMSE",toc:[],body:{type:"root",children:[]},dir:"\u002F",path:"\u002Finformation",extension:".md",slug:a,createdAt:new Date(1629382978787),updatedAt:new Date(1629240310000)}}],fetch:{},mutations:void 0}}("information")));
