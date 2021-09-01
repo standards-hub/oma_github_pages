@@ -53,6 +53,8 @@
   transition: 0.3s;
   min-width: 40%;
   border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .thumbnail-description {
