@@ -163,6 +163,17 @@ modules:
          subtitle: Events
          status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
          link: https://github.com/events
+   -
+     layout: i_Column_Legends
+     items:
+       - 
+         legend: Availalbe
+         color: #
+       -
+         legend: Coming in Q3
+         color: #
+       - legend: External Link
+         color: #
 -
 layout: image-text
 title: Title 2
