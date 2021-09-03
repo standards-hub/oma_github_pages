@@ -9,25 +9,28 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">
-            <img src="~static/assets/img/icono2.png" style="max-width: 345px;margin-top: 5px;">
+          <a class="navbar-brand" href="/oma_github_pages/">
+            <img src="~static/assets/img/logo1.jpg" style="max-width: 140px;margin-top: -10px;">
         </a>
       </div>
       <div class="navbar-collapse collapse" id="navbar">
-        <ul class="nav navbar-nav" style="font-size: 13px;">                  
-                <li><a class="page-link" href="https://cloudinformationmodel.org" target="_blank" style="color: #000">OMA Website</a></li>
-                <li><NuxtLink to="/table" style="color: #000">Specifications</NuxtLink></li>
-                <li><NuxtLink to="/table" style="color: #000">Supporting Material</NuxtLink></li>
-                <li><NuxtLink to="/table" style="color: #000">Open Source</NuxtLink></li>
-                <li><NuxtLink to="/table" style="color: #000">TestFests</NuxtLink></li>
-                <li><NuxtLink to="/new" style="color: #000">New</NuxtLink></li>
-                <li><NuxtLink to="/new2" style="color: #000">New2</NuxtLink></li>
-                <li><NuxtLink to="/table" style="color: #000">LwM2M</NuxtLink></li>
-                <li><a class="page-link" target="_blank" href="https://github.com/cloudinformationmodel"><i class="fab fa-github-alt" style="color: #000"></i></a></li>
+        <ul class="nav navbar-nav" style="font-size: 13px;">
+                <li><a href="http://www.openmobilealliance.org/" target="_blank" style="font-weight: bold;">OMA Website</a></li>
+                <li><NuxtLink to="/table" style="font-weight: bold;">Specifications</NuxtLink></li>
+                <li><NuxtLink to="/table" style="font-weight: bold;">Supporting Material</NuxtLink></li>
+                <li><NuxtLink to="/table" style="font-weight: bold;">Open Source</NuxtLink></li>
+                <li><NuxtLink to="/table" style="font-weight: bold;">TestFests</NuxtLink></li>
+                <li><NuxtLink to="/new" style="font-weight: bold;">New</NuxtLink></li>
+                <li><NuxtLink to="/new2" style="font-weight: bold;">New2</NuxtLink></li>
+                <li><NuxtLink to="/table" style="font-weight: bold;">LwM2M</NuxtLink></li>
+                <li><a class="page-link" target="_blank" href="https://github.com/cloudinformationmodel"><i class="fab fa-github-alt fa-lg"></i></a></li>
         </ul>
     </div>
   </div>
 </nav>
   </header>
 </template>
+<style>
+a:active { background: lightgrey; }
+</style>
 
