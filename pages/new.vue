@@ -20,8 +20,8 @@
         </div>
     </div>
         <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
                 <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
                     <div class="caption"> 
                        <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
@@ -29,13 +29,13 @@
                     <p style="text-align: center;">
                         The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
                     </p>    
-            </div>
+            </div></NuxtLink>
          </div>
                             
               
         <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
                 <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
                     <div class="caption"> 
                        <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
@@ -43,12 +43,24 @@
                     <p style="text-align: center;">
                         The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
                     </p>    
-            </div>
+            </div></NuxtLink>
+         </div>
+         <div class="col-md-4">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
+                <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
+                    <div class="caption"> 
+                       <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
+                    </div>
+                    <p style="text-align: center;">
+                        The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
+                    </p>    
+            </div></NuxtLink>
          </div>
 
          <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
                 <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
                     <div class="caption"> 
                        <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
@@ -56,26 +68,13 @@
                     <p style="text-align: center;">
                         The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
                     </p>    
-            </div>
-         </div>
-
-         <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
-                <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
-                    <div class="caption"> 
-                       <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
-                    </div>
-                    <p style="text-align: center;">
-                        The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
-                    </p>    
-            </div>
+            </div></NuxtLink>
          </div>
                             
               
         <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
                 <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
                     <div class="caption"> 
                        <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
@@ -83,12 +82,12 @@
                     <p style="text-align: center;">
                         The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
                     </p>    
-            </div>
+            </div></NuxtLink>
          </div>
 
          <div class="col-md-4">
-            <img style="margin-bottom:-30px;margin-top: 5px;" src="~static/assets/img/prueba.png" >
-            <div class="card thumbnail">
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><img style="margin-bottom: -40px;margin-top: 5px;box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);transition: 0.3s;border-radius: 5px;" src="~static/assets/img/prueba.png" ></NuxtLink>
+            <NuxtLink to="/new_conte" style="font-weight: bold;"><div class="card thumbnail">
                 <img style="float:left" class="card-logo" src="/standards-hub/img/project/circulo.png" alt="Reactive Interaction Gateway">
                     <div class="caption"> 
                        <h5 style="text-align: center;font-weight: bold;">uCIFI Alliance Contributes 29 Objects to OMA</h5>
@@ -96,7 +95,7 @@
                     <p style="text-align: center;">
                         The uCIFI Alliance, see https://ucifi.org, collaborates with the Open Mobile Alliance
                     </p>    
-            </div>
+            </div></NuxtLink>
          </div>
       </div>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer" style="margin-top: 110%;">
+  <footer class="footer" style="margin-top: 100%;">
     <div class="container">
         <div class="social-list" style="float: right">
              <a class="social social-twitter social-large" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter" style="margin-left:8px; font-size: 35px; color: Dodgerblue;"></i></a> 
